@@ -1,0 +1,156 @@
+*
+{   
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    }
+body{
+    margin: 0%;
+    padding: 0%;
+        background-color: rgb(14, 14, 14);
+    
+}
+
+.iconos{
+    display: flex;
+    justify-content:flex end;
+    font-size: 1em;
+    padding-right: 5em;
+    
+    }
+.logo{
+    height: 1.7em;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+    align-self: center;
+}
+.navbar{
+    font-size: 13px;
+    color: #fff;
+    position: fixed;
+
+}
+.avatar{
+    height: 2em;
+    color:#fff
+}
+.icon{
+    color: #fff;
+    font-size: 1.5em;
+    padding-right: 1.2em;
+    align-self: center;
+    }
+.pelicula{
+    background-image: url(/pelicula\ fondo.jpg);
+    background-size: cover;
+    margin: 0% auto;
+    height: 35em;
+    padding: 0%;
+    display: block;
+    
+    }
+.infopeli{
+   
+   padding-top: 15em;
+   padding-left: 3em;   
+   text-align: justify;
+    }
+.fa-play{
+   color: black;
+}
+.subtitulo{
+    background-color: rgb(14, 14, 14) ;
+    padding-top: 2em;
+    padding-left: 2em;
+    font-size: 1em;
+    font-weight: bold;
+    
+    }
+
+ 
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 100%);
+    overflow: hidden;
+    scroll-behavior: smooth;
+    background-color: rgb(14, 14, 14);
+    margin: 0%;
+    padding: 0%;
+   }
+  
+   
+   .wrapper section {
+    background-color: rgb(14, 14, 14);
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    margin: 20px 0;
+   }
+   .wrapper section .item {
+    padding: 0 2px;
+    transition: 250ms all;
+   }
+   .wrapper section .item:hover {
+    margin: 0 40px;
+    transform: scale(1.2);
+   }
+   .wrapper section a {
+    position: absolute;
+    color: #fff;
+    text-decoration: none;
+    font-size: 6em;
+    background: black;
+    width: 80px;
+    padding: 20px;
+    text-align: center;
+    z-index: 1;
+   }
+   .wrapper section a:nth-of-type(1) {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(-90deg, rgba(0, 0, 0, 0) 0%, black 100%);
+   }
+   .wrapper section a:nth-of-type(2) {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, black 100%);
+   }
+   img{
+       height: 10em;
+   }
+   .arrow_btn{
+       height: 2em;
+   }
+   @media only screen and (max-width: 600px) {
+    a.arrow__btn {
+    display: none;
+    }
+   }
+
+footer{
+    padding-top:3em;
+    width: 100%;
+}
+footer a{
+    text-decoration: none;
+    font-size: 12px;
+}
+.footer{
+    padding: 0% 5em;
+}
+.social{
+    padding-left: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+.text-center{
+    align-items: flex-end;
+}
+.copyright{
+    height: 3em;
+    font-size: 12px;
+    width: 100%;
+   
+}
